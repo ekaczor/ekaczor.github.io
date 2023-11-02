@@ -1,0 +1,20 @@
+* {
+    background-color: antiquewhite;
+}
+#title {
+    color: rgb(48, 48, 117);
+    text-align: center;
+    border: rgb(48,48,117) solid 2px;
+}
+#menubar {
+    color: rgb(48,48,117);
+    display: flex;
+    justify-content: space-around;
+}
+
+a {
+    border: rgb(48,48,117) solid 5px;
+    background-color: rgb(48,48,117);
+    margin: 5px;
+    color: white;
+}
