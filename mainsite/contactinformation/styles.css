@@ -29,3 +29,29 @@ a {
     border-radius: 5px;
     text-decoration: none;
 }
+
+#info {
+    color: rgb(48,48,117);
+    font-weight: 800px;
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    padding-top: 100px;
+    font-size: 25px;
+}
+
+#linkedin {
+    
+    display: flex;
+    margin: 30px 0px 30px 0px;
+    font-size: 25px;
+}
+
+#content {
+    position: absolute;
+    /* align-content: center;  */
+    /* left: 50%; */
+    /* right: 50%; */
+    /* transform: translate(-50%); */
+}
+
+/* Adjust the size of the body to center the contact info text */
