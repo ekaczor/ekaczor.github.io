@@ -1,0 +1,35 @@
+* {
+    font-family: 'EB Garamond', serif;
+    font-weight: bold;
+    background-color: antiquewhite;
+}
+
+#title {
+    color: rgb(48, 48, 117);
+    text-align: center;
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+
+#menubar {
+    color: rgb(48,48,117);
+    display: flex;
+    justify-content: space-around;
+    margin: 20px;
+    font-size: 18px;
+    
+}
+
+a {
+    border: rgb(48,48,117) solid 8px;
+    background-color: rgb(48,48,117);
+    margin: 8px;
+    color: white;
+    font-weight: 100;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+body {
+    color: rgb(48,48,117);
+}
