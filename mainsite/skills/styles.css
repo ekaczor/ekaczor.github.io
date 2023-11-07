@@ -33,3 +33,20 @@ a {
 body {
     color: rgb(48,48,117);
 }
+
+#list {
+    padding: 40px;
+    font-size: 20px;
+}
+
+footer{
+    color: rgb(48,48,117);
+    position: fixed;
+    margin-top: 30px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
