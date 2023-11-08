@@ -56,6 +56,10 @@ a {
     margin: 20px;
 }
 
+p {
+font-size: 20px;
+}
+
 #imagecontainer1 {
     justify-content: center;
     align-items: center;
