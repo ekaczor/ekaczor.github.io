@@ -39,13 +39,15 @@ a {
     font-size: 25px;
     align-items: center;
     justify-content: center;
+    column-count: 1;
+    flex-direction: column;
 }
 
 #linkedin {
     align-items: center;
     justify-content: center;
     display: flex;
-    margin: 30px 0px 30px 0px;
+    margin: 0px 0px 0px 0px;
     font-size: 25px;
 }
 
