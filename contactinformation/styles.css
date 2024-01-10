@@ -14,17 +14,21 @@ body {
 #title {
     color: rgb(48, 48, 117);
     text-align: center;
-    font-size: 40px;
+    font-size: 36px;
     margin-bottom: 50px;
 }
 
 #menubar {
-    color: rgb(48,48,117);
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    font-size: 18px;
-    
+  color: rgb(48, 48, 117);
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  font-size: 22px;
+  background-color: rgb(48, 48, 117);
+}
+a:hover {
+  color: gray;
+  transform: scale(1.1);
 }
 
 a {
@@ -35,8 +39,6 @@ a {
     font-weight: 100;
     border-radius: 5px;
     text-decoration: none;
-    box-shadow: 0 8px 16px rgba(0,0,0,.5);
-    font-size: 35px;
 }
 
 #info {
@@ -48,7 +50,6 @@ a {
     font-size: 35px;
     align-items: center;
     justify-content: center;
-    /* column-count: 1; */
     flex-direction: column;
 }
 
