@@ -111,5 +111,15 @@ footer{
         .dropdown:hover .dropdown-content {
           display: block;
         }
+
+        #title{
+          font-size: x-large;
+        }
+
+        #list {
+          padding: 0px;
+          font-size: 14px;
+          width: 90vw;
+      }
       }
       

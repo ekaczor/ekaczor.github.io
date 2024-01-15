@@ -37,12 +37,12 @@ a {
 
 .stuff {
   display: flex;
-  justify-content: space-around;
+  justify-content: space-evenly;
 }
 
 .paragraphs {
-  padding: 20px;
-  width: 40vw;
+  padding: 50px;
+  width: 50vw;
 }
 
 .imagecontainer {
@@ -125,5 +125,26 @@ footer {
 
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  #title{
+    font-size: x-large;
+  }
+  .stuff {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+  .paragraphs{
+    font-size: large;
+    width: 90vw;
+    text-align: center;
+    padding: 0px;
+  }
+  p{
+    font-size: large;
+  }
+  .imagecontainer {
+    margin: 10px;
   }
 }

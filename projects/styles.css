@@ -1,149 +1,224 @@
 * {
-    font-family: 'EB Garamond', serif;
-    font-weight: bold;
-    background-color: antiquewhite;
+  font-family: "EB Garamond", serif;
+  font-weight: bold;
+  background-color: antiquewhite;
 }
 
 #title {
-    color: rgb(48, 48, 117);
-    text-align: center;
-    font-size: 36px;
-    margin-bottom: 50px;
+  color: rgb(48, 48, 117);
+  text-align: center;
+  font-size: 36px;
+  margin-bottom: 20px;
 }
 
 #menubar {
-    color: rgb(48, 48, 117);
-    display: flex;
-    justify-content: space-around;
-    margin: 20px;
-    font-size: 22px;
-    background-color: rgb(48, 48, 117);
-  }
-  a:hover {
-    color: gray;
-    transform: scale(1.1);
-  }
+  color: rgb(48, 48, 117);
+  display: flex;
+  justify-content: space-around;
+  margin: 20px;
+  font-size: 22px;
+  background-color: rgb(48, 48, 117);
+}
+a:hover {
+  color: gray;
+  transform: scale(1.1);
+}
+
+.VehicleImage {
+  width: 50vw;
+  height: 35vw;
+  min-width: 500px;
+  min-height: 350px;
+}
+
+.PetImage {
+  width: 50vw;
+  height: 35vw;
+  min-width: 500px;
+  min-height: 350px;
+}
+
+.BlackJackImage {
+  width: 50vw;
+  height: 35vw;
+  min-width: 500px;
+  min-height: 350px;
+}
 
 a {
-    border: rgb(48,48,117) solid 8px;
-    background-color: rgb(48,48,117);
-    margin: 8px;
+  border: rgb(48, 48, 117) solid 8px;
+  background-color: rgb(48, 48, 117);
+  margin: 8px;
+  color: white;
+  font-weight: 100;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+#projects {
+  display: flex;
+  flex-direction: column;
+  font-size: 40px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+}
+
+#link1 {
+  display: flex;
+  width: 40vw;
+  max-width: 500px;
+  text-align: center;
+  justify-content: center;
+}
+
+#link2 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 1000px;
+  background-color: rgb(48, 48, 117);
+}
+
+#link3 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 1000px;
+  background-color: rgb(48, 48, 117);
+  justify-content: center;
+  align-items: center;
+}
+#link4 {
+  display: flex;
+  flex-direction: column;
+  width: 80vw;
+  max-width: 1000px;
+  background-color: rgb(48, 48, 117);
+  justify-content: center;
+  align-items: center;
+}
+
+p {
+  font-size: 20px;
+}
+
+#imagecontainer1 {
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(48, 48, 117);
+}
+
+.imagecontainer {
+  margin: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer {
+  color: rgb(48, 48, 117);
+  position: fixed;
+  margin-top: 30px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+
+@media only screen and (min-width: 1024px) {
+  .dropdown {
+    display: none;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  #menubar {
+    display: none;
+  }
+
+  .dropdown {
+    position: relative;
+  }
+
+  .dropdown-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    cursor: pointer;
+    background-color: rgb(48, 48, 117);
+    color: white;
+    font-weight: 100;
+    border-radius: 5px;
+    font-size: 45px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    top: 0;
+    right: 0;
+    z-index: 1;
+    background-color: rgba(255, 255, 255, 0);
+  }
+
+  .dropdown-content a {
+    display: block;
+    padding: 8px;
+    text-decoration: none;
     color: white;
     font-weight: 100;
     border-radius: 5px;
     text-decoration: none;
-}
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.5);
+    font-size: 35px;
+    justify-content: flex;
+  }
 
-#projects{
-    padding: 30px;
-    font-size: 40px;
-    text-align: center;
-    align-items: baseline;
-    justify-content: baseline;
-}
-#link1 {
-
+  .dropdown:hover .dropdown-content {
     display: block;
-    margin: 20px;
-}
+  }
 
-#link2 {
-    display: block;
-    margin: 20px;
-}
+  #title {
+    font-size: x-large;
+  }
 
-#link3 {
-    display: block;
-    margin: 20px;
+  #projects {
+    font-size: 20px;
+  }
+  
+  .VehicleImage {
+    width: 50vw;
+    height: 35vw;
+    min-width: 250px;
+    min-height: 175px;
+  }
+  
+  .PetImage {
+    width: 50vw;
+    height: 35vw;
+    min-width: 250px;
+    min-height: 175px;
+  }
+  
+  .BlackJackImage {
+    width: 50vw;
+    height: 35vw;
+    min-width: 250px;
+    min-height: 175px;
+  }
+  
+  #link2 {
+    width: 90vw;
+  }
+  
+  #link3 {
+    width: 90vw;
+  }
+  #link4 {
+    width: 90vw;
+  }
 }
-#link4 {
-    display: block;
-    margin: 20px;
-}
-
-p {
-font-size: 20px;
-}
-
-#imagecontainer1 {
-    justify-content: center;
-    align-items: center;
-}
-
-.imagecontainer {
-    margin: 30px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-footer{
-    color: rgb(48,48,117);
-    position: fixed;
-    margin-top: 30px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    display: flex;
-    justify-content: center;
-    align-items: flex-end;
-}
-
-
-@media only screen and (min-width: 1024px) {
-    .dropdown{
-        display: none;
-    }
-    }
-    
-    @media only screen and (max-width: 1024px) {
-        #menubar {
-          display: none;
-        }
-      
-        .dropdown {
-          position: relative;
-        }
-      
-        .dropdown-btn {
-            position: absolute;
-            top: 10px;
-            right: 10px;
-            cursor: pointer;
-            background-color: rgb(48, 48, 117);
-            color: white;
-            font-weight: 100;
-            border-radius: 5px;
-            font-size: 45px;
-            box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
-          }
-      
-        .dropdown-content {
-          display: none;
-          position: absolute;
-          top: 0;
-          right: 0;
-          z-index: 1;
-          background-color: rgba(255, 255, 255, 0);;
-        }
-      
-        .dropdown-content a {
-          display: block;
-          padding: 8px;
-          text-decoration: none;
-          color: white;
-          font-weight: 100;
-          border-radius: 5px;
-          text-decoration: none;
-          box-shadow: 0 8px 16px rgba(0,0,0,.5);
-          font-size: 35px;
-          justify-content: flex;
-          
-        
-        }
-      
-        .dropdown:hover .dropdown-content {
-          display: block;
-        }
-      }
-      

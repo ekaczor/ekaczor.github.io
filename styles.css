@@ -22,14 +22,13 @@ a:hover {
   transform: scale(1.1);
 }
 
-#info{
-padding-top: 50px;
-
+#info {
+  padding-top: 50px;
 }
 
 .stuff {
-    display: flex;
-    justify-content: center
+  display: flex;
+  justify-content: center;
 }
 
 a {
@@ -83,7 +82,8 @@ footer {
   right: 0;
   display: flex;
   justify-content: center;
-  align-items: flex-end;
+  align-items: center;
+  text-align: center;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -144,5 +144,42 @@ footer {
 
   .dropdown:hover .dropdown-content {
     display: block;
+  }
+
+  .stuff {
+    flex-direction: column-reverse;
+    justify-content: center;
+    align-items: center;
+  }
+
+  #bio {
+    font-size: large;
+    width: 90vw;
+    text-align: center;
+  }
+  .imagecontainer {
+    margin: 0px;
+  }
+  #info {
+    padding-top: 0px;
+  }
+
+  #title {
+    font-size: x-large;
+  }
+
+  #skillstitle {
+    margin-left: 0px;
+    text-align: center;
+    font-size: x-large;
+  }
+
+  #skillsbasics {
+    column-count: 1;
+    font-size: 16px;
+    max-width: 90vw;
+    padding-left: 80px;
+    margin-left: 50px;
+    margin-top: 0px;
   }
 }
