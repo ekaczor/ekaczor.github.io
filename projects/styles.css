@@ -24,21 +24,24 @@ a:hover {
   transform: scale(1.1);
 }
 
-.VehicleImage {
+.ToolHubImage {
+  margin-top: 10px;
   width: 50vw;
   height: 35vw;
   min-width: 500px;
   min-height: 350px;
 }
 
-.PetImage {
+.AirForceImage {
+  margin-top: 10px;
   width: 50vw;
   height: 35vw;
   min-width: 500px;
   min-height: 350px;
 }
 
-.BlackJackImage {
+.CarWorkshopImage {
+  margin-top: 10px;
   width: 50vw;
   height: 35vw;
   min-width: 500px;
