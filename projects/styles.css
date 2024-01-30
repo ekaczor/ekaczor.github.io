@@ -24,28 +24,14 @@ a:hover {
   transform: scale(1.1);
 }
 
-.ToolHubImage {
-  margin-top: 10px;
-  width: 50vw;
-  height: 35vw;
-  min-width: 500px;
-  min-height: 350px;
-}
-
-.AirForceImage {
-  margin-top: 10px;
-  width: 50vw;
-  height: 35vw;
-  min-width: 500px;
-  min-height: 350px;
-}
-
+.ToolHubImage,
+.AirForceImage,
 .CarWorkshopImage {
   margin-top: 10px;
-  width: 50vw;
-  height: 35vw;
-  min-width: 500px;
-  min-height: 350px;
+  width: 100%; /* Set width to 100% for responsiveness */
+  height: auto; /* Set height to auto to maintain aspect ratio */
+  max-width: 1000px; /* Set a maximum width to prevent them from getting too large on larger screens */
+  max-height: 350px; /* Set a maximum height to prevent them from getting too tall */
 }
 
 a {
@@ -157,6 +143,7 @@ footer {
     border-radius: 5px;
     font-size: 45px;
     box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+    margin: 0px;
   }
 
   .dropdown-content {
@@ -192,32 +179,18 @@ footer {
   #projects {
     font-size: 20px;
   }
-  
-  .VehicleImage {
-    width: 50vw;
-    height: 35vw;
-    min-width: 250px;
-    min-height: 175px;
+
+  .ToolHubImage,
+  .AirForceImage,
+  .CarWorkshopImage {
+    max-width: none; 
+    max-height: none; 
   }
-  
-  .PetImage {
-    width: 50vw;
-    height: 35vw;
-    min-width: 250px;
-    min-height: 175px;
-  }
-  
-  .BlackJackImage {
-    width: 50vw;
-    height: 35vw;
-    min-width: 250px;
-    min-height: 175px;
-  }
-  
+
   #link2 {
     width: 90vw;
   }
-  
+
   #link3 {
     width: 90vw;
   }
